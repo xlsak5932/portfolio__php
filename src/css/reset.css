@@ -1,0 +1,77 @@
+/* 폰트 */
+/* Major Mono Display */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* 조선일보명조체(ChosunilboNM): */
+@font-face {
+    font-family: 'ChosunNm';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 폰트 사용하기 */
+.font01 {
+    font-family: 'Major Mono Display', monospace;
+}
+.font02 {
+    font-family: 'ChosunNm';
+}
+
+.ellipsis {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+/* body { overflow-x: hidden; } */
+a {
+    text-decoration: none;
+    color: #222;
+}
+h1, h2, h3,h4,h5,h6 {
+    font-weight: normal;
+}
+
+li, ul, ol {
+    list-style: normal;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+}
+em {
+    font-style: noprmal;
+}
+
+/* reset */
+/* reset */
+body {
+    width: 100%;
+    height: 100vh;
+    line-height: 1.4;
+    background-color: #3b3b36;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Major Mono Display', 'ChosunNm', NexonLv1GothicLow, -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+     /* overflow: hidden; */
+}
+
