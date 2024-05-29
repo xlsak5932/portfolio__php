@@ -2486,6 +2486,7 @@ progress::-moz-progress-bar {
 }
 /* option3 */
 #horizontality3 {
+  display: none !important;
   width: 400%;
   height: 100vh;
   display: flex;
